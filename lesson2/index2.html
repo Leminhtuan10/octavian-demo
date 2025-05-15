@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Trang cá nhân</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    .profile {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 600px;
+      margin: auto;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    form {
+      margin-top: 20px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile">
+    <h1>Xin chào! Mình là Như ❤️</h1>
+    
+
+    <img src="emiu.jpg" alt="Ảnh đại diện">
+
+    <h2>Sở thích:</h2>
+    <ul>
+      <strong><li>Đan len</li>
+      <li>Ngủ</li>
+      <li>Du lịch</li></strong>
+    </ul>
+
+    <h2>Liên hệ với mình</h2>
+    <form action="#" method="post">
+      <label for="name">Tên của bạn:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="message">Tin nhắn:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Gửi</button>
+    </form>
+  </div>
+</body>
+</html>
